@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background: rgb(18, 18, 18);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.navbar1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(9, 86, 71);
+}
+
+.navbar1 .logo{
+	padding: 20px;
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+}
+
+.navbar1 .logo img{
+    width: 45px;
+    height: 50px;
+}
+
+.navbar1 .logo a{
+    text-decoration: none;
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar1 .logo a:hover{
+	color: #b6e2e1;
+}
+
+.navbar1 .divider{
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.navbar1 .buttons{
+	padding: 20px;
+	display: flex;
+	column-gap: 15px;
+}
+
+.navbar1 .buttons a{
+	font-size: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
+    padding-left: 7px; 
+	padding-right: 7px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+    text-decoration: none;
+}
+
+.navbar1 .buttons a:hover{
+    background-color: rgb(18, 18, 18);
+}
+
+.navbar1 .buttons a:active{
+    background-color: rgb(130, 130, 130);
+}
+
+.navbar2{
+    text-align: center;
+    vertical-align: auto;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    background-color: rgb(6, 52, 43);
+}
+
+.main .text{
+	color: rgb(255, 255, 255);
+	margin-top: 70px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.main .text h1{
+	margin: 0;
+	font-size: 300%;
+}
+
+.main .promo-images{
+	color: rgb(255, 255, 255);
+    margin-top: 140px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    justify-content: center;
+    vertical-align: auto;
+    display: flex;
+}
+
+.footer{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    left: 0;
+    bottom: 0;
+    width: 95%;
+    text-align: center;
+}
